@@ -11,9 +11,14 @@
 
 @interface LPSViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIImageView *topPoliceImage;
-@property (strong, nonatomic) IBOutlet UIImageView *middlePoliceImage;
-
-@property (strong, nonatomic) IBOutlet UIImageView *bottomPoliceImage;
+@property (strong, nonatomic) IBOutlet UIImageView *topPicture;
+@property (strong, nonatomic) IBOutlet UIImageView *middlePicture;
+@property (strong, nonatomic) IBOutlet UIImageView *bottomPicture;
+@property (strong, nonatomic) NSArray *topImages;
+@property (strong, nonatomic) NSArray *middleImages;
+@property (strong, nonatomic) NSArray *bottomImages;
+@property (nonatomic) NSInteger currentImage;
 
 @end
+
+

@@ -96,6 +96,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="criminalCheck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T3K-RS-h39"/>
                                     <action selector="submitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BBc-4N-0lc"/>
                                 </connections>
                             </button>
@@ -103,9 +104,9 @@
                         <color key="backgroundColor" red="0.0" green="0.27291391300000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="bottomPoliceImage" destination="WDP-j6-Eg2" id="Kj7-Au-1v5"/>
-                        <outlet property="middlePoliceImage" destination="s9v-Wc-fya" id="16s-N3-azf"/>
-                        <outlet property="topPoliceImage" destination="OTB-63-dke" id="Yke-VH-Yho"/>
+                        <outlet property="bottomPicture" destination="WDP-j6-Eg2" id="TNT-NB-vZG"/>
+                        <outlet property="middlePicture" destination="s9v-Wc-fya" id="mAy-ls-szV"/>
+                        <outlet property="topPicture" destination="OTB-63-dke" id="VWv-kp-MAs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
