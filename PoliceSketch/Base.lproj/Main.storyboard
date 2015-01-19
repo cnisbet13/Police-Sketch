@@ -32,7 +32,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="topButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r2G-ML-gow"/>
+                                    <action selector="topBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hYN-jz-NZe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adx-c0-pfn">
@@ -41,7 +41,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="middleButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dH1-p4-fjr"/>
+                                    <action selector="middleBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yld-5f-hCz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YT-V8-jhd">
@@ -50,7 +50,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="bottomButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pLB-Jk-UN5"/>
+                                    <action selector="bottomBackward:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qdj-QA-z1S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVC-fU-m3t">
@@ -59,7 +59,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="topButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fdH-1P-om3"/>
+                                    <action selector="topForward:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fID-tO-mu7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0u-mc-FwC">
@@ -68,7 +68,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="middleButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3gx-Lg-ClL"/>
+                                    <action selector="middleForward:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gnn-Cc-d53"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRd-ro-A3w">
@@ -77,7 +77,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="bottomButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Yo1-Mm-XA0"/>
+                                    <action selector="bottomForward:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="668-Jw-kJV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Police Sketch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncD-xc-EIT">
