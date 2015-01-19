@@ -97,7 +97,6 @@
                                 </state>
                                 <connections>
                                     <action selector="criminalCheck:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T3K-RS-h39"/>
-                                    <action selector="submitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BBc-4N-0lc"/>
                                 </connections>
                             </button>
                         </subviews>

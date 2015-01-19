@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSArray *middleImages;
 @property (strong, nonatomic) NSArray *bottomImages;
 @property (nonatomic) NSInteger currentImage;
+@property(nonatomic, assign) UIAlertViewStyle suspectAlert;
 
 @end
 

@@ -46,7 +46,7 @@
 - (IBAction)topBack:(id)sender {
     
     
-    //Can't just take the same approach as above - need to 
+    //Can't just take the same approach as above - need to
     
     if (_currentImage +1 < [_topImages count]) {
         _currentImage++;
@@ -104,13 +104,9 @@
 {
 
 
+    UIAlertView *suspectAlert = [[UIAlertView alloc] initWithTitle:@"Vancouver Police Suspect" message:@"Catch This Motherfucker!" delegate:nil cancelButtonTitle:@"Click to Cancel" otherButtonTitles:nil, nil];
+    [suspectAlert show];
     
-    
-    
-//if ([bottomImages objectAtIndex:1] && [bottomImages objectAtIndex:1] && [bottomImages objectAtIndex:1]) {
-//  UIAlertView *alertView = [UIAlertView alloc] init];
-//    alertView.text = @"";
-//}
 
 }
 
